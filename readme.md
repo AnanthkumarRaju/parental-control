@@ -2,7 +2,10 @@
 Spring boot application that exposes a REST api to find movie parental rating.
 
 End point Spec:
-http://<host>:8080/movie/parentalcontrol/<movieId>/<Parental Control level preference>
+http://{host}:8080/movie/parentalcontrol/{movieId}/{Parental Control level preference}
+
+Example:
+http://localhost:8080/movie/parentalcontrol/id2/U
 
 #### Movie rating stub setup
 
